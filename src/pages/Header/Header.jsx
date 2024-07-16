@@ -7,7 +7,7 @@ import TypedText from "@/components/TypedText/TypedText";
 const Header = () => {
   return (
     <header style={{ backgroundImage: "url('/assets/images/bacgroun1.jpg')" }}>
-      <div className="py-48 container flex flex-col lg:flex-row justify-between items-center">
+      <div className="py-10 md:py-40 lg:py-48 container flex flex-col lg:flex-row justify-between items-center">
         <div className="flex flex-col w-full md:w-1/2 gap-5  lg:max-w-none">
           <Image
             src="/Logo/NavbarLogo.svg"
@@ -22,12 +22,14 @@ const Header = () => {
             <TypedText />
           </p>
           <div>
-            <button
-              type="button"
-              className="bg-blue-600 border-none hover:bg-blue-800 px-8 py-2 rounded-md text-white text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] font-bold"
-            >
-              Contact
-            </button>
+            <a href="#contact">
+              <button
+                type="button"
+                className="bg-blue-600 border-none hover:bg-blue-500 px-8 py-2 rounded-md text-white text-[20px] sm:text-[25px] md:text-[30px] lg:text-[35px] font-bold"
+              >
+                Contact
+              </button>
+            </a>
           </div>
         </div>
         <div className="mt-10 lg:mt-0 w-full md:w-1/2 lg:w-auto flex justify-center lg:justify-end">

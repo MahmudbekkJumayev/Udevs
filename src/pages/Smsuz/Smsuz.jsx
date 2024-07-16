@@ -21,10 +21,10 @@ const Smsuz = () => {
               Notification
             </p>
           </div>
-          <p className="text-lg md:text-xl text-gray-800 font-medium">
+          <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
             Smsuz.uz - It is a platform for bulk SMS messaging.
           </p>
-          <p className="text-lg md:text-xl text-gray-800 font-medium">
+          <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
             What we did?
           </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">

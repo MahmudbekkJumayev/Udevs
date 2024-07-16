@@ -24,8 +24,8 @@ const System = () => {
                 className="rounded-lg"
               />
             </div>
-            <div className="w-full md:w-1/2 px-6 flex flex-col gap-6">
-              <p className="text-lg lg:text-xl font-bold text-gray-700">
+            <div className="w-full md:w-1/2 px-6 py-8 flex flex-col gap-6">
+              <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
                 IT Systems of any level of complexity at a convenient time for
                 you
               </p>

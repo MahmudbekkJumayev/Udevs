@@ -27,11 +27,13 @@ const Delever = () => {
             />
             <p className="text-white text-lg ml-2">Delivery</p>
           </div>
-          <p className="text-lg text-gray-800 font-medium">
+          <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
             Delever - Delivery service automation targeted at both consumers and
             restaurants.
           </p>
-          <p className="text-lg text-gray-800 font-medium">What we did?</p>
+          <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
+            What we did?
+          </p>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             {[
               {

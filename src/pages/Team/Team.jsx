@@ -23,7 +23,7 @@ const Team = () => {
             <h4 className="text-[40px] lg:text-[60px] font-bold text-blue-600">
               Team
             </h4>
-            <p className="text-[20px]">
+            <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
               For each project, we form a team that includes a project manager,
               business analyst, UI / UX designer, DevOps, QA engineer, backend
               and front-end developers.

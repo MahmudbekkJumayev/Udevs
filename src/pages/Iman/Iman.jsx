@@ -25,7 +25,7 @@ const Iman = () => {
               Notification
             </p>
           </div>
-          <p className="text-[20px] text-gray-800 font-medium">
+          <p className="text-[18px] text-gray-800 font-medium">
             Iman - It is a mutual financing platform based on the principles of
             Islamic Finance. Buyers, sellers and investors meet here.
           </p>

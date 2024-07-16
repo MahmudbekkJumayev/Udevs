@@ -10,7 +10,7 @@ const Design = () => {
         </h4>
         <div className="flex flex-col lg:flex-row justify-between items-center gap-10 lg:gap-20">
           <div className="w-full md:w-1/2 flex flex-col gap-5">
-            <p className="text-gray-700 font-bold text-xl lg:text-2xl">
+            <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
               Our company takes a human-centered approach to design
             </p>
             <div className="grid grid-cols-2 md:grid-cols-3 gap-5">

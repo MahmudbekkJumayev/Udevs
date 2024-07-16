@@ -8,9 +8,9 @@ const Clients = () => {
   return (
     <div id="clients" className="bg-gray-200 py-32">
       <div className="container mx-auto">
-        <div className="">
-          <h4 className="text-3xl font-bold text-center mb-5">Our clients</h4>
-        </div>
+        <h4 className="text-3xl text-blue-600 font-bold text-center mb-5">
+          Our clients
+        </h4>
         <Carousel
           showThumbs={false}
           showArrows={true}
@@ -23,50 +23,26 @@ const Clients = () => {
           className="my-carousel"
         >
           <div className="flex justify-center items-center gap-5">
-            <span>
-              <img src="/assets/images/client1.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client2.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client3.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client4.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client5.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client6.svg" alt="hamkorlar" />
-            </span>
+            {[1, 2, 3, 4, 5, 6, 8].map((client) => (
+              <span key={client}>
+                <img
+                  src={`/assets/images/client${client}.svg`}
+                  alt={`Client ${client}`}
+                  className="max-w-full h-auto"
+                />
+              </span>
+            ))}
           </div>
           <div className="flex justify-center items-center gap-5">
-            <span>
-              <img src="/assets/images/client8.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client9.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client10.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client11.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client12.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client13.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client14.svg" alt="hamkorlar" />
-            </span>
-            <span>
-              <img src="/assets/images/client15.svg" alt="hamkorlar" />
-            </span>
+            {[9, 10, 11, 12, 13, 14, 15].map((client) => (
+              <span key={client}>
+                <img
+                  src={`/assets/images/client${client}.svg`}
+                  alt={`Client ${client}`}
+                  className="max-w-full h-auto"
+                />
+              </span>
+            ))}
           </div>
         </Carousel>
       </div>

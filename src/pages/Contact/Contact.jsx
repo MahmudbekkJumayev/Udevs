@@ -2,14 +2,14 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div className="container mx-auto py-16 lg:py-32">
+    <div id="contact" className="container mx-auto py-16 lg:py-32">
       <h4 className="text-4xl text-blue-600 font-bold text-left mb-10">
         Contact Us
       </h4>
       <div className="shadow-xl p-5 bg-gray-100 flex flex-col md:flex-row justify-between items-center">
         <div className="w-full md:w-1/2">
           <form className="flex flex-col gap-5 py-5 px-4 md:px-10">
-            <p className="text-lg font-medium text-gray-900">
+            <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
               Leave us a message
             </p>
             <input
@@ -66,7 +66,7 @@ const Contact = () => {
               azizbek.b@udevs.io
             </p>
           </div>
-          <div className="rounded-lg overflow-hidden">
+          <div className="rounded-lg w-full overflow-hidden">
             <iframe
               src="https://yandex.com/map-widget/v1/?from=mapframe&ll=69.300828%2C41.334407&source=mapframe&um=constructor%3A3d9eefa927bd54bcc9e8fa398a73c8cafb60622737263c96ad9341c32c21fa69&utm_source=mapframe&z=14"
               width="100%"

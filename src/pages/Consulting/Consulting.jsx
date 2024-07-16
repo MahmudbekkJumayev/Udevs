@@ -8,9 +8,9 @@ const Consulting = () => {
           <h4 className="text-[40px] text-blue-600 font-bold text-start">
             IT Consulting
           </h4>
-          <div className="flex flex-col md:flex-row gap-40 py-5">
+          <div className="flex flex-col justify-center items-center md:flex-row gap-40 py-5">
             <div className="w-full md:w-1/2 flex flex-col gap-5">
-              <p className="text-[25px] font-medium">
+              <p className="text-[16px] md:text-[18px] text-gray-800 font-medium">
                 We can improve the qualifications of your employees thereby
                 increasing the efficiency of your company
               </p>

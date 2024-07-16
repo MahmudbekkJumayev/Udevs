@@ -10,7 +10,7 @@ const Technologies = () => {
         </h4>
         <div className="flex flex-col lg:flex-row gap-10 lg:gap-20 py-10">
           <div className="w-full lg:w-1/2 flex flex-col gap-10">
-            <h5 className="text-lg lg:text-xl">
+            <h5 className="text-[16px] md:text-[18px] text-gray-800 font-medium">
               In collaboration with startups, we have learned how to create a
               creative and functional user interface for mobile applications.
             </h5>
