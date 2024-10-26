@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Smsuz = () => {
   return (
-    <div id="smsuz" className="container mx-auto  py-16 lg:py-32">
+    <div id="smsuz" className="container mx-auto  py-16 lg:py-24">
       <div className="flex flex-col md:flex-row gap-10 justify-between items-center">
         <div className="w-full md:w-1/2 flex flex-col gap-5">
           <h4 className="text-2xl md:text-3xl lg:text-4xl text-blue-600 font-bold text-start">

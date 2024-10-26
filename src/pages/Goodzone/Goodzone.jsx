@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Goodzone = () => {
   return (
-    <div id="goodzone" className="container  py-16 lg:py-32">
+    <div id="goodzone" className="container  py-16 lg:py-24">
       <div className="flex flex-col md:flex-row gap-10 justify-between items-center">
         <div className="w-full md:w-1/2 p-10">
           <Image
@@ -29,7 +29,7 @@ const Goodzone = () => {
               width={24}
               height={24}
             />
-            <p className="text-white text-[18px]">E-Commerce</p>
+            <p className="text-white text-[16px] text-center">E-Commerce</p>
           </div>
           <p className="text-[20px] text-gray-800 font-medium">
             Goodzone - Internet shop of household appliances in Uzbekistan.

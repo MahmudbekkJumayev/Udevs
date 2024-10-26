@@ -4,7 +4,7 @@ const Consulting = () => {
   return (
     <div>
       <div className="container">
-        <div className="py-32">
+        <div className="py-24">
           <h4 className="text-[40px] text-blue-600 font-bold text-start">
             IT Consulting
           </h4>

@@ -4,7 +4,7 @@ import Image from "next/image";
 const Technologies = () => {
   return (
     <div id="service" className="container">
-      <div className="py-16 lg:py-32">
+      <div className="py-16 lg:py-24">
         <h4 className="text-3xl lg:text-4xl text-blue-600 font-bold text-start">
           Development of mobile applications
         </h4>

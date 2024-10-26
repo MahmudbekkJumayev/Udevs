@@ -18,7 +18,7 @@ const Team = () => {
   return (
     <div id="command" className="bg-blue-50">
       <div className="container" ref={ref}>
-        <div className="flex flex-col md:flex-row py-32 ">
+        <div className="flex flex-col md:flex-row py-24 ">
           <div className="w-full md:w-1/2 p-10 flex flex-col gap-5">
             <h4 className="text-[40px] lg:text-[60px] font-bold text-blue-600">
               Team

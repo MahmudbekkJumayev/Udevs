@@ -2,7 +2,7 @@ import React from "react";
 
 const Work = () => {
   return (
-    <div className="container py-32">
+    <div className="container py-24">
       <h4 className="text-[40px] text-blue-600 font-bold text-start">
         How we work!
       </h4>

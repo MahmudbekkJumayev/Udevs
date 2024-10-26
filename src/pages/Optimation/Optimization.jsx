@@ -7,7 +7,7 @@ const Optimization = () => {
   return (
     <div className="bg-blue-50">
       <div className="container">
-        <div className="py-32">
+        <div className="py-24">
           <h4 className="text-3xl text-blue-600 font-bold text-start mb-5">
             Optimization
           </h4>
@@ -37,7 +37,7 @@ const Optimization = () => {
                 {[
                   {
                     icon: "/assets/icons/optimization1.svg",
-                    text: "Architecture",
+                    text: "Architec",
                   },
                   {
                     icon: "/assets/icons/optimization2.svg",

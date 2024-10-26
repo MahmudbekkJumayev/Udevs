@@ -93,7 +93,7 @@ const Tools = () => {
   return (
     <div id="tools" className="bg-blue-50">
       <div className="container mx-auto">
-        <div className="py-32">
+        <div className="py-24">
           <h4 className="text-[32px] md:text-[40px] text-blue-600 font-bold text-start">
             Tools
           </h4>

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Iman = () => {
   return (
-    <div id="iman" className="container mx-auto py-16 lg:py-32">
+    <div id="iman" className="container mx-auto py-16 lg:py-24">
       <div className="flex flex-col md:flex-row gap-10 justify-between items-center">
         <div className="w-full md:w-1/2 flex flex-col gap-5">
           <Image

@@ -1,3 +1,4 @@
+"use client";
 import Header from "@/pages/Header/Header";
 import Navbar from "@/components/Navbar/Navbar";
 import Service from "@/pages/Service/Service";
@@ -16,6 +17,14 @@ import Iman from "@/pages/Iman/Iman";
 import Work from "@/pages/work/Work";
 import Contact from "@/pages/Contact/Contact";
 import Footer from "@/pages/Footer/Footer";
+import { useEffect } from "react";
+import { useRouter } from "next/router";
+
+const scrollToSection = () => {
+  document.querySelector('#section-id').scrollIntoView({
+    behavior: 'smooth',
+  });
+};
 
 export default function Home() {
   return (
